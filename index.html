@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Panning Map Alpha</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="style.css" />
+ 	</head>
+	
+	<body>
+		<div id="map-content-container">
+			<div id="map-content-container-header">
+				<h2>School Performance</h2>
+				<h3>San Francisco Bay Area 2017</h3>
+			</div>
+			<div id="map-container">
+				<div id="container">
+				  	<div id="map-drag-container" ondragstart="return false">	
+				  		<div id="pin" class="pin-location"></div>	
+				  		<img id="map-drag-image" src="map.png" />
+					</div>
+				</div>
+
+				<div class="zoom-control-container">
+					<div>
+						<input type="button" id="zoomout" class="zoom-button" value="+">
+					</div>
+					<div>
+						<input type="button" id="zoomin" class="zoom-button" value="-">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="script.js"></script>
+</html>

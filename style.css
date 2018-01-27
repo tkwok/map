@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  margin: 0px auto;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+input, button {
+  vertical-align: middle;
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+#map-content-container {
+  padding: 40px;
+  background-color: #AAA3D0;
+}
+
+#map-content-container-header {
+  text-align: center;
+}
+
+#map-content-container-header h2 {
+  margin-top: 0;
+}
+
+#map-container {
+  position: relative;
+}
+
+#map-drag-container {
+  cursor: move;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+#map-drag-image {
+  transform: translate(-50%, -50%);
+}
+
+
+#container {
+  overflow: hidden;
+  background: #fff;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+
+.zoom-control-container {
+  width: 30px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.zoom-button {
+  font-weight: bold;
+  font-size: 1.25em;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+}
+
+.pin-location {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background-color: red;
+  z-index: 1;
+}
